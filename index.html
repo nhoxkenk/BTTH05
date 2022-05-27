@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>My Todos</h1>
+    </div>
+    <div class="todo-list" id="to-do">
+        <h2>Learn react</h2>
+        <div>
+            <button id="dels" type="button">Delete</button>
+        </div>    
+    </div>
+
+        <div class="model-wrapper" id="modal">
+            <div class="model">
+                <span>Are you sure ?</span>
+                <div>
+                    <button id="cancels" class="btn-cancel" type="button">Cancel</button>
+                    <button id="confirms" type="button">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading-table">
+            <h1 >To do List</h1>
+            <button class="adding" id="add">Add to do item</button>
+        </div>
+        
+        <table id="customers">
+            <tr>
+                <th>Tên</th>
+                <th>Trạng thái hoàn thành</th>
+              </tr>
+          </table>
+    <script src="./main.js"></script>
+</body>
+</html>

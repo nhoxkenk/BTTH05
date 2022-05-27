@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: darkgray;
+    margin: 3rem;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+.todo-list{
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    border-radius: 3px;
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+span{
+    padding: 1rem;
+}
+
+.todo-list div{
+    text-align: right;
+}
+.open{
+    display: flex !important;
+}
+
+button{
+    border: 0.5px solid #800040;
+    color: #fff;
+    background-color: #800040;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.model-wrapper{
+    display: none;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+}
+
+.model{
+    position: fixed;
+    background-color: #fff;
+    width: 30rem;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10rem;
+}
+
+.model button{
+    margin: 1rem;
+}
+
+.model span{
+    padding: 0;
+    margin-top: 1rem;
+    display: block;
+}
+
+.btn-cancel{
+    color: #800040 ;
+    background-color: #fff ;
+}
+
+.heading-table{
+    text-align: center;
+}
+
+table{
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
